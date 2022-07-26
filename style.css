@@ -358,6 +358,15 @@ h1, h2, h3, h4, h5, h6 {
     margin-bottom: 38px;
 }
 
+.slider-2 .slide2__item img {
+    transition: .3s all;
+}
+
+.slider-2 .slide2__item img:hover {
+    opacity: .7;
+    
+}
+
 
 /*  3 slider   */
 
@@ -402,4 +411,47 @@ h1, h2, h3, h4, h5, h6 {
     overflow-y: visible;    
     overflow-x: hidden;
     margin-bottom: 38px;
+    
+}
+
+
+/*  4 slider   */
+
+.slider-4 {
+    position: relative;
+    
+}
+
+.slider-4 .slick-arrow {
+    position: absolute;
+    bottom: -38px;
+    z-index: 20;
+    font-size: 0;
+    width: 28px;
+    height: 28px;
+    cursor: pointer;    
+    transition: .5s all;
+    border: none;
+    opacity: .4;    
+}
+
+.slider-4 .slick-arrow:hover {
+    opacity: .9;
+}
+
+.slider-4 .slick-arrow.slick-prev {
+    left: 0px;    
+    background: #fff url(ph_arrow-left-thin.svg) center no-repeat;    
+}
+
+.slider-4 .slick-arrow.slick-next {
+    right: 0;
+    background: #fff url(ph_arrow-right-thin.svg) center no-repeat;    
+}
+
+.slider-4 .slick-list {    
+    overflow-y: visible;    
+    overflow-x: hidden;
+    margin-bottom: 38px;
+    
 }
